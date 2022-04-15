@@ -5,13 +5,17 @@ public class ClassObjSample {
 
         Person alex = new Person();
         alex.name = "Alex";
-        alex.age = 18;
+        alex.age = 8;
         alex.gender = "Male";
         alex.Sleep();
         Person mia = new Person();
-        mia.age = 2;
+        mia.age = 62;
         mia.name = "Mia";
         mia.Sleep();
+        Person gohul = new Person();
+        gohul.age = 28;
+        gohul.name = "Gohul";
+        gohul.Sleep();
 
     }
 }
