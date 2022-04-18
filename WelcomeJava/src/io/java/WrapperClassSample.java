@@ -1,4 +1,4 @@
-package io.java.variablepkg;
+package io.java;
 
 public class WrapperClassSample {
     public static void main(String[] args) {
