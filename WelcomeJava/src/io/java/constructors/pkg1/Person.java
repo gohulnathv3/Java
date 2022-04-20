@@ -1,6 +1,6 @@
 package io.java.constructors.pkg1;
 
-public class Person{
+public class Person extends PersonSuper{
     public String name;
     public String gender;
     public int age;
@@ -8,14 +8,19 @@ public class Person{
     //default constructor
     public Person(){
 
+        System.out.println("Default constructor without parameters");
+
     }
 
     //parameterized constructor
     public Person(String name, int age, String gender){
+        this();
+        System.out.println("Constructor with three parameters using 'this' keyworld");
         this.name = name;
         this.age = age;
         this.gender = gender;
     }
+
 
     public void Sleep(){
         if(age<10){

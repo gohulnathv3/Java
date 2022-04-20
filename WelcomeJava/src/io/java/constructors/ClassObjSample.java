@@ -27,6 +27,8 @@ public class ClassObjSample {
         //constructor calling
         gokul.Sleep();
 
+        System.out.println(gohul.age);
+
     }
 }
 

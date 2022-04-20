@@ -1,35 +1,5 @@
 package io.myplayground;
-public class PlayGround{
-    public static void main(String[] args) {
-        System.out.println("Hello guys");
-        methodOne(); //calling method
-        System.out.println(methodTwo(2,5));
-        System.out.println(methodThree(2.5));
-        int number = 12; //normal variable (aka local variable)
-        String name = new String("Hello"); //reference variable, it has inbuilt object.
 
-    }
-    public static void methodOne(){
-        System.out.println("methodOne");
-    }
-    public static int methodTwo(int num1, int num2){ //parameters adding
-
-        return num1+num2;
-    }
-
-    static double methodThree(double num1){
-        return num1*num1;
-    }
-}
-
-class AnotherClass{
-    String person_name;
-    String person_gender;
-    int person_age;
-    void showPersonName(){
-        System.out.println();
-    }
-}
 
 
 
