@@ -2,9 +2,16 @@ package io.java.inheritance;
 
 public class Artist extends Human { //here I extend the parent class for this child class
     public void prepareDrawing(){
-        System.out.println(name+" is ready for drawing");
+        System.out.println("this is ready for drawing");
     }
 
+    public void walk(){
+        System.out.println("Artist is waling like this");
+    }
+
+    public void speak(){
+        System.out.println("Artist is speak like this");
+    }
     public void thinkingIdeas(){
         System.out.println(name+" is ready for exploring different ideas");
     }
@@ -15,7 +22,7 @@ public class Artist extends Human { //here I extend the parent class for this ch
         a.age = 22;
 
         a.prepareDrawing();
-        a.sleep();
+        a.walk();
     }
 
 }

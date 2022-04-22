@@ -1,6 +1,10 @@
 package io.java.inheritance;
 
 public class Human {
+
+//    String BLOOD_COLOUR = "RED";
+
+
     String name;
     String gender;
     int age;
@@ -17,4 +21,5 @@ public class Human {
     public void speak(){
         System.out.println(name+" is speaking with bolder voice");
     }
+
 }

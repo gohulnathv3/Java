@@ -1,6 +1,9 @@
 package io.java.inheritance;
 
-public class Musician extends Human{ //here I extended other class
+public class Musician extends Human{
+
+    Keyboard myKeyboard = new Keyboard();
+    //here I extended other class
     public void speak(){ //here I'm overloading the methods with same name. due to the feature of inheritance, it calls the local methods first.
         System.out.println(name+" is speaking softly and changes his voice accordingly for the music");
     }
