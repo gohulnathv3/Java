@@ -16,7 +16,9 @@ public class Musician extends Human{
         Musician m = new Musician();
         m.name = "Anirudh";
         m.age = 21;
-        m.prepareMusic();
-        m.speak();
+//        m.prepareMusic();
+//        m.speak();
+        System.out.println(m.myKeyboard.noOfKeys);
+        m.myKeyboard.speak();
     }
 }
