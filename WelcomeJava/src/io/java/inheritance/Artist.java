@@ -14,6 +14,12 @@ public class Artist implements Human { //here I extend the parent class for this
         System.out.println("Artist is waling like this");
     }
 
+    //here we're declaring speak to choose which method we would like to call whether it's from Human or HumanTempInterface
+
+    public void speak() {
+        Human.super.speak();
+    }
+
 
 //    public void speak(){
 //        System.out.println("Artist is speak like this");
