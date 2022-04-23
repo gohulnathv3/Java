@@ -1,22 +1,30 @@
 package io.java.inheritance;
 
-public interface Human {
+public abstract class Human {
 
-    String BLOOD_COLOUR = "RED";
+    public abstract void walk();
 
-
-
-//    String name;
-//    String gender;
-//    int age;
-
-    // creating methods for this class
-    public void sleep();
-
-    public void walk();
-
-    public default void speak(){
-        System.out.println("Speak method is come from Human interface method");
-    }
+//    we cannot make a body for abstract methods, so we declare below only with void
+    public void speak(){
+        System.out.println("This is from Human abstract class");
+    };
 
 }
+
+//    String BLOOD_COLOUR = "RED";
+
+
+
+////    String name;
+////    String gender;
+////    int age;
+//
+//    // creating methods for this class
+//    public void sleep();
+//
+//    public void walk();
+//
+//    public default void speak(){
+//        System.out.println("Speak method is come from Human interface method");
+//    }
+
