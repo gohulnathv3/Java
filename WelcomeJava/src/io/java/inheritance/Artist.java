@@ -1,6 +1,6 @@
 package io.java.inheritance;
 
-public class Artist implements Human { //here I extend the parent class for this child class
+public class Artist implements Human,HumanTempInterface { //here I extend the parent class for this child class
 
 
     public void prepareDrawing(){
@@ -17,7 +17,7 @@ public class Artist implements Human { //here I extend the parent class for this
     //here we're declaring speak to choose which method we would like to call whether it's from Human or HumanTempInterface
 
     public void speak() {
-        Human.super.speak();
+        HumanTempInterface.super.speak();
     }
 
 
