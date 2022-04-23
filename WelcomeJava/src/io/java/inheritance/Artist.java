@@ -14,9 +14,10 @@ public class Artist implements Human { //here I extend the parent class for this
         System.out.println("Artist is waling like this");
     }
 
-    public void speak(){
-        System.out.println("Artist is speak like this");
-    }
+
+//    public void speak(){
+//        System.out.println("Artist is speak like this");
+//    }
 
 //    public void thinkingIdeas(){
 //        System.out.println(name+" is ready for exploring different ideas");
@@ -30,7 +31,7 @@ public class Artist implements Human { //here I extend the parent class for this
 
 //        a.prepareDrawing();
         a.walk();
-        a.sleep();
+        a.speak();
     }
 
 }

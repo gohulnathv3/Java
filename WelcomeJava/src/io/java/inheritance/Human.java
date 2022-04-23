@@ -15,6 +15,8 @@ public interface Human {
 
     public void walk();
 
-    public void speak();
+    public default void speak(){
+        System.out.println("Speak method is come from default interface method");
+    }
 
 }
