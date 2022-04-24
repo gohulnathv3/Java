@@ -5,7 +5,7 @@ public class WrapperClassSample {
         //wrapper class example
         //int, String conversion using float wrapper class
 
-        Float floatWrap = new Float(123.53f);
+        Float floatWrap = new Float(2.5f);
         System.out.println(floatWrap.getClass().getSimpleName()); //to print the type of floatWrap value
 
         //float to int conversion using wrapper C
