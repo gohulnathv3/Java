@@ -8,6 +8,6 @@ public class DomesticAnimal extends Animal{
 
     @Override
     public void walk(){
-        System.out.println("I will walk in town at the speed of"+getMinSpeed());
+        System.out.println("I will walk in town at the speed of "+getMinSpeed());
     }
 }
