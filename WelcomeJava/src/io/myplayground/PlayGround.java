@@ -1,21 +1,46 @@
 package io.myplayground;
+
+import java.util.Locale;
+
 public class PlayGround {
     public static void main(String[] args) {
-    //logic 3 using for each loop
+        System.out.println(printResult());
+    }
 
-        //create an array to store the elements for squaring numbers
-        int[] squareNumbers = new int[10];
+    public static String printResult() {
+        String finalStr = "       JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1991, later acquired by Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and debugging programming easy    ";
+//        finalStr = finalStr.trim();
+//        finalStr = finalStr.toLowerCase(Locale.ROOT);
+//        finalStr = finalStr.replace(",", "-");
+        finalStr = finalStr.trim().toLowerCase(Locale.ROOT).replace(",","-");
 
-        //creating a loop to write
-        for(int i = 0; i<10; i++){
-            int square = (i+1)*(i+1);
-            squareNumbers[i] = square;
-        }
+        //to create an array to store the elements to count how much of them.
 
-        //more elegant way to print an array is by for-each loop
-        for(int square: squareNumbers){
-            System.out.println(square);
-        }
+        String strArray[] = finalStr.split(" ");
+        return finalStr+"\nTotal words in this string is "+strArray.length;
+    }
+}
+
+
+
+
+
+//    public static void main(String[] args) {
+//    //logic 3 using for each loop
+//
+//        //create an array to store the elements for squaring numbers
+//        int[] squareNumbers = new int[10];
+//
+//        //creating a loop to write
+//        for(int i = 0; i<10; i++){
+//            int square = (i+1)*(i+1);
+//            squareNumbers[i] = square;
+//        }
+//
+//        //more elegant way to print an array is by for-each loop
+//        for(int square: squareNumbers){
+//            System.out.println(square);
+//        }
 
 
 
@@ -39,8 +64,7 @@ public class PlayGround {
 //            squareNumbers[i] = square;
 //            System.out.println(squareNumbers[i]);
 //        }
-    }
-}
+
 
 
 //one way of generating pattern in java using direct method in main class.
