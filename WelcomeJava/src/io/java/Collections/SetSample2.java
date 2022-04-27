@@ -3,6 +3,7 @@ package io.java.Collections;
 import java.io.StringBufferInputStream;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
+import java.util.TreeSet;
 
 public class SetSample2 {
     public static void main(String[] args) {
@@ -17,7 +18,9 @@ public class SetSample2 {
 //        }
 
 //        LinkedHashSet<String> mySet = new LinkedHashSet<>();
-        HashSet<String> mySet = new HashSet<>();
+//        HashSet<String> mySet = new HashSet<>();
+        TreeSet<String> mySet = new TreeSet<>();
+
         mySet.add("Orange");
         mySet.add("Apple");
         mySet.add("Mango");
