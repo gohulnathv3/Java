@@ -13,6 +13,23 @@ public class Person {
         this.gender = gender;
     }
 
+    public Person(){
+
+    }
+//  After adding this functions, we can able to eliminate the repeated name in object instances.
+    @Override
+    public int hashCode() {
+//        return super.hashCode();
+        return this.name.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+//        return super.equals(obj);
+        return obj instanceof Person && this.name.equals(((Person) obj).name);
+
+    }
+
     public String getName() {
         return name;
     }

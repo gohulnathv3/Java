@@ -14,8 +14,6 @@ public class SetSample2 {
             System.out.println(list.getName());
         }
 
-
-
-
+        
     }
 }
