@@ -11,6 +11,6 @@ public class MapExample {
         myMap.put("UK", "London");
 
         System.out.println(myMap.get("IN"));
-        
+
     }
 }
