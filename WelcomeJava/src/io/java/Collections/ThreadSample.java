@@ -2,7 +2,8 @@ package io.java.Collections;
 
 import javax.imageio.plugins.tiff.TIFFImageReadParam;
 
-public class ThreadSample extends Thread{
+//public class ThreadSample extends Thread{
+public class ThreadSample implements Runnable{
 
     public synchronized void run() { // if you add synchronize before void, this will allow only one threat at a time.
         synchronized (this) {
@@ -13,7 +14,7 @@ public class ThreadSample extends Thread{
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
-                System.out.println("Th  read Name is " + Thread.currentThread().getName() + " Value of i is " + i);
+                System.out.println("Thread Name is " + Thread.currentThread().getName() + " Value of i is " + i);
             }
         }
     }
