@@ -4,10 +4,17 @@ import javax.imageio.plugins.tiff.TIFFImageReadParam;
 
 public class ThreadSample extends Thread{
 
-    public void run(){
-        for(int i =0; i<5; i++){
+    public synchronized void run() { // if you add synchronize before void, this will allow only one threat at a time.
+        synchronized (this) {
+            for (int i = 0; i < 5; i++) {
 //            System.out.println("Value of i is: "+i);
-            System.out.println("Thread Name is "+Thread.currentThread().getName()+" Value of i is "+i);
+                try {
+                    Thread.sleep(1000); // used to run a program with 1 sec delay
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+                System.out.println("Th  read Name is " + Thread.currentThread().getName() + " Value of i is " + i);
+            }
         }
     }
 
