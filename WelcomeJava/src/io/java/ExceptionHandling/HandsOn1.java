@@ -19,7 +19,7 @@ public class HandsOn1{
 
         try {
             int a[] = new int[10];
-            a[12] = 23;h
+            a[12] = 23;
             System.out.println(a[12]);
         }catch(Exception e){
             System.out.println("Please enter value between 0 and 9 and current error is "+e);
