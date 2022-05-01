@@ -1,25 +1,55 @@
 package io.myplayground;
 
+import org.w3c.dom.css.Rect;
+
 import java.util.Locale;
 
-public class PlayGround {
+public class PlayGround{
     public static void main(String[] args) {
-        System.out.println(printResult());
-    }
 
-    public static String printResult() {
-        String finalStr = "       JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1991, later acquired by Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and debugging programming easy    ";
-//        finalStr = finalStr.trim();
-//        finalStr = finalStr.toLowerCase(Locale.ROOT);
-//        finalStr = finalStr.replace(",", "-");
-        finalStr = finalStr.trim().toLowerCase(Locale.ROOT).replace(",","-");
+        Rectangle r1 = new Rectangle();
+        Rectangle r2 = new Rectangle();
+        r1.insert(11,3);
+        r1.insert(3,15);
+        r1.calculateArea();
+        r2.calculateArea();
 
-        //to create an array to store the elements to count how much of them.
 
-        String strArray[] = finalStr.split(" ");
-        return finalStr+"\nTotal words in this string is "+strArray.length;
     }
 }
+class Rectangle{
+    int length;
+    int width;
+    void insert(int l, int w){
+        length = l;
+        width = w;
+
+    }
+    void calculateArea(){
+        System.out.println(length*width);
+
+    }
+}
+
+
+//public class PlayGround {
+//    public static void main(String[] args) {
+//        System.out.println(printResult());
+//    }
+//
+//    public static String printResult() {
+//        String finalStr = "       JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1991, later acquired by Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and debugging programming easy    ";
+////        finalStr = finalStr.trim();
+////        finalStr = finalStr.toLowerCase(Locale.ROOT);
+////        finalStr = finalStr.replace(",", "-");
+//        finalStr = finalStr.trim().toLowerCase(Locale.ROOT).replace(",","-");
+//
+//        //to create an array to store the elements to count how much of them.
+//
+//        String strArray[] = finalStr.split(" ");
+//        return finalStr+"\nTotal words in this string is "+strArray.length;
+//    }
+//}
 
 
 
