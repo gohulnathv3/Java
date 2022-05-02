@@ -1,5 +1,4 @@
 package io.java.ControlStatement;
-
 public class IfSample {
     public static void main(String[] args) {
         int x = 10;
