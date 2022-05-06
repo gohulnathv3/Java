@@ -28,5 +28,20 @@ public class ArrayExample1 {
             System.out.println(elements);
         }
 
+        System.out.println("\nget() and set() method in the ArrayList");
+
+        // get() and set() method is ArrayList
+        // Both are used to access and change the element
+
+        // accessing elements
+        System.out.println("\nReturning second element in the list Array[n-1] to be added : "+list.get(1));
+        list.set(1,"Babu");
+        list.set(2,"Castro");
+
+        for (String names: list){
+            System.out.println("Returning elements in an array "+names);
+        }
+
+
     }
 }
