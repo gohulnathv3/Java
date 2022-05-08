@@ -18,7 +18,8 @@ public class ArrayExample1 {
 
         System.out.println("\nTraversing list through iterator");
         // iterate the list
-        Iterator itr = list.iterator(); //getting iterator
+//        Iterator itr = list.iterator();
+        Iterator<String> itr = list.iterator(); //getting iterator
         while (itr.hasNext()){ //check if the iterator has the elements
             System.out.println(itr.next()); // printing elements and move to next
         }

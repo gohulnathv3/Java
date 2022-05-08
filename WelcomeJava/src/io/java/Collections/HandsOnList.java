@@ -1,6 +1,5 @@
 package io.java.Collections;
 
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -26,7 +25,7 @@ public class HandsOnList {
         list.add("Vicky");
 
         // Traversing through iterator
-        Iterator itr = list.iterator();
+        Iterator<String> itr = list.iterator();
         while (itr.hasNext()){
             System.out.println(itr.next());
         }
