@@ -2,6 +2,7 @@ package io.java.Collections.Arrays;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.ListIterator;
 
 public class ArrayExanple3 {
@@ -25,5 +26,22 @@ public class ArrayExanple3 {
             String str = list1.previous();
             System.out.println(str);
         }
+
+        // another way to print the list elements
+        System.out.println("Traversing list through for loop");
+        for(int i = 0; i<list.size();i++){
+            System.out.println(list.get(i));
+        }
+
+        // third way to print the elements in the list.
+        System.out.println("Traversing list through forEach() method");
+        // for each method is a new feature introduced in the java 8
+        list.forEach(a-> // Here, we are using lambda expression
+                System.out.println(a));
+        // fourth way to print the elements in the list.
+        System.out.println("Traversing list through forEachRemaining() method");
+        Iterator<String> itr = list.iterator();
+        itr.forEachRemaining(a-> // here also, we are using lambda expression
+                System.out.println(a));
     }
 }
