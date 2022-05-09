@@ -32,7 +32,7 @@ public class Problem2 {
     public static int findEvenNumbersCount(int[] nums){
         // initialize count variable to store the even digit counts.
         int count = 0;
-        // create an array to find the solution for this quesion
+        // create an array to find the solution for this question
         for(int i=0;i<nums.length;i++){
             // we're gonna initialize the string to convert int to str to find the digits of each value
             //we can't calculate the int length, so we convert it to string and find the lenght of the value
