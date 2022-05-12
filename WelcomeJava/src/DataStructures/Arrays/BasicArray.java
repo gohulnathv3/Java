@@ -3,7 +3,9 @@ package DataStructures.Arrays;
 import java.util.Scanner;
 
 public class BasicArray {
-    public static void main(String[] args) {
+
+    // Method for creating array list
+    public static void create_array(int arr[]){
         // Single dimensional array
         int array[] = new int[4];
 
@@ -18,6 +20,7 @@ public class BasicArray {
         System.out.println(array[0]);
 
         // Print all the elements in the array
+        System.out.println("Printing array elements");
         for(int i=0;i<array.length; i++){
             System.out.println(array[i]);
         }
@@ -34,6 +37,24 @@ public class BasicArray {
             array_input[i]= input.nextInt();
         }
 
-        
+        // Showing array with loop
+        System.out.println("Showing Array with loop");
+        for(int i =0 ; i<n;i++){
+            System.out.println("\t"+array_input[i]);
+        }
+        input.close();
+
+        // Receives an array as a parameter
+        System.out.println("Receiving array as a parameter");
+        for(int i = 0; i<array.length;i++){
+            System.out.println(array[i]);
+        }
+    }
+
+    // Main Method
+    public static void main(String[] args) {
+        create_array(new int[]{1,2,3,4});
+
+
     }
 }
