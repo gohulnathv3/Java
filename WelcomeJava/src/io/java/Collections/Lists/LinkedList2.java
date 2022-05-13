@@ -12,6 +12,7 @@ public class LinkedList2 {
         ll.add("Riswanth");
 
         System.out.println("After Invoking add(E e) method: "+ll);
+        
         // Adding an element at the specific position
         ll.add(1,"Vicky");
         System.out.println("After Invoking add(int index, E element) method: "+ll);
