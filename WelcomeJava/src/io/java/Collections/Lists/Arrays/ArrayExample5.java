@@ -1,4 +1,4 @@
-package io.java.Collections.Arrays;
+package io.java.Collections.Lists.Arrays;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
