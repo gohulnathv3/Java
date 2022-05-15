@@ -2,7 +2,6 @@ package io.java;
 class Car{
     int speed;
     String color;
-
     //default constructor
     Car(){
         speed = 100;
