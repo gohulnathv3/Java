@@ -6,7 +6,6 @@ public class DoWhile2 {
         do{
             sum+=x;
             x--;
-
         }
         while(x>10);
         System.out.println("Summation "+sum);
