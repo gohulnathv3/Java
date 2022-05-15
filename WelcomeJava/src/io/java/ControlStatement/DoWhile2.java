@@ -9,6 +9,6 @@ public class DoWhile2 {
 
         }
         while(x>10);
-        System.out.println("Summation");
+        System.out.println("Summation "+sum);
     }
 }
