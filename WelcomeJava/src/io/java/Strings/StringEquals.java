@@ -1,7 +1,4 @@
 package io.java.Strings;
-
-import java.util.logging.SimpleFormatter;
-
 public class StringEquals {
     public static void main(String[] args) {
         String s1 = "Gohul";
