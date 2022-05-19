@@ -1,8 +1,8 @@
 package io.java.Collections;
 
-import java.util.HashMap;
-import java.util.HashSet;
 
+import java.util.HashSet;
+// Revision 1
 public class SetSample {
     public static void main(String[] args) {
         HashSet<String> mySet = new HashSet<>();
