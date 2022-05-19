@@ -1,6 +1,6 @@
 package io.java.Collections;
 
-import javax.imageio.plugins.tiff.TIFFImageReadParam;
+// Revision 1
 
 //public class ThreadSample extends Thread{
 public class ThreadSample implements Runnable{
