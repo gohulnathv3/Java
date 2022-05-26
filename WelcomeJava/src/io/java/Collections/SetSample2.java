@@ -6,7 +6,7 @@ import java.util.LinkedHashSet;
 import java.util.TreeSet;
 
 public class SetSample2 {
-    // Revision 1
+    // Revision 2
     public static void main(String[] args) {
 //        HashSet<Person> mySet = new HashSet<>();
 //        mySet.add(new Person("Alex",33,"Male"));
