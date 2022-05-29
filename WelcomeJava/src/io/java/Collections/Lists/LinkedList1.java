@@ -9,7 +9,7 @@ package io.java.Collections.Lists;
 
 import java.util.Iterator;
 import java.util.LinkedList;
-// Revision 1
+// Revision 2
 public class LinkedList1 {
     public static void main(String[] args) {
         LinkedList<String> ll  = new LinkedList<String>();
