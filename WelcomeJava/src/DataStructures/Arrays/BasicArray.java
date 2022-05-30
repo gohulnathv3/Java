@@ -56,7 +56,5 @@ public class BasicArray {
     // Main Method
     public static void main(String[] args) {
         create_array(new int[]{1,2,3,4});
-
-
     }
 }
