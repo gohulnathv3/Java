@@ -22,7 +22,7 @@ public class LinkedList2 {
         // Adding second list elements to the first list
         ll.addAll(ll2);
         System.out.println("After Invoking addAll(int index, Collection<?extendsE>c) method: "+ll);
-        ll.addFirst("Arun Prakash");
+        ll.addFirst("Arun Prakash"); // This feature is only available in linked list. i.e addFirst, addLast.
         System.out.println("After Invoking addFirst(E e) method: "+ll);
         ll.addLast("Kelvin");
         System.out.println("After Invoking addLast(E e) method: "+ll);
