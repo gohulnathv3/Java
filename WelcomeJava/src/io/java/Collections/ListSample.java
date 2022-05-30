@@ -23,7 +23,7 @@ public class ListSample {
             System.out.println(fruit);
         }
 
-//        myList.add(new Person("Alex",43,"Male");
+//        myList.add(String.valueOf(new Person("Alex",43,"Male")));
 //        System.out.println(((Person)myList.get(1)).name);
 
 
