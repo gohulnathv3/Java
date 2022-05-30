@@ -4,16 +4,15 @@ import java.util.*;
 //Revision 2
 public class MapExample {
     public static void main(String[] args) {
-//        HashMap<String, String> myMap = new HashMap<>();
+        HashMap<String, String> myMap = new HashMap<>();
 //        Hashtable<String, String> myMap = new Hashtable<>(); //it doesn't run if null key-value is present in map.
 //        TreeMap<String, String> myMap = new TreeMap<>(); // it showed in ascending order.
-        LinkedHashMap<String, String> myMap = new LinkedHashMap<>(); // it showed in ascending order of value.
-
+//        LinkedHashMap<String, String> myMap = new LinkedHashMap<>(); // it showed in ascending order of value.
         myMap.put("IN", "India");
         myMap.put("US", "America");
         myMap.put("CAD", "Canada");
         myMap.put("UK", "London");
-//        myMap.put(null, "China");
+//        myMap.put(null, "Canada");
         myMap.put("CN", "China");
 //        myMap.remove("IN");
 
