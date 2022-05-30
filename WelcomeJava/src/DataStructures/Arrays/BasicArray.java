@@ -8,7 +8,8 @@ public class BasicArray {
     // Method for creating array list
     public static void create_array(int arr[]){
         // Single dimensional array
-        int array[] = new int[4];
+        int[] array = new int[4]; // Java style array declaration
+//        int array[] = new int[4];
 
         // Initialization
         array[0] = 10;
@@ -32,7 +33,7 @@ public class BasicArray {
         System.out.println("How many elements you want to add ?");
         int n = input.nextInt();
 
-        int array_input[] = new int[n];
+        int[] array_input = new int[n];
         System.out.println("Enter "+ n + " Elements: ");
         for(int i=0;i<n;i++){
             array_input[i]= input.nextInt();
