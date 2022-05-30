@@ -6,8 +6,8 @@ public class CopyArray {
     // Let's call main method
     public static void main(String[] args) {
         //Creating two array. One is with elements and another is with empty array
-        int arr1[] = {1,2,3,4,5};
-        int arr2[] = new int[arr1.length];
+        int[] arr1 = {1,2,3,4,5};
+        int[] arr2 = new int[arr1.length];
 
         System.out.println("Printing array 1");
         // Printing the array elements in arr1
