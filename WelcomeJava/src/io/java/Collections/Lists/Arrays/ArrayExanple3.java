@@ -16,6 +16,9 @@ public class ArrayExanple3 {
         // Sorting elements in the array
         Collections.sort(list);
 
+        System.out.println("\nAfter Sorting the array list");
+        System.out.println(list+" ");
+
         // different ways of iterating arrays.
 
         System.out.println("Traversing list through iterator");
