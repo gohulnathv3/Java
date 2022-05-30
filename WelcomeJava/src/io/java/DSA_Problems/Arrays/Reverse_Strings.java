@@ -17,7 +17,7 @@ public class Reverse_Strings {
             System.out.println(arr[i]+" ");
         System.out.println("");
     }
-   
+
    // declaring main method
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
