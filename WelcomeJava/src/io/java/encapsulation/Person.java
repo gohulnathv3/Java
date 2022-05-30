@@ -1,6 +1,6 @@
 package io.java.encapsulation;
 
-// Revision 1
+// Revision 2
 public class Person {
     private String name;
     private int age;
