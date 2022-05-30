@@ -1,4 +1,7 @@
 package io.java.ControlStatement;
+
+import java.util.Scanner;
+
 // Revision 1
 public class SwitchSample {
     public static void main(String[] args) {
