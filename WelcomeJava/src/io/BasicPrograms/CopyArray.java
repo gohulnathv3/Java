@@ -1,6 +1,6 @@
 package io.BasicPrograms;
 // Revision 1
-// Task: create one array and copy the elements and print it other array
+// Task: create one array and copy the elements and print it to other array
 
 public class CopyArray {
     // Let's call main method
