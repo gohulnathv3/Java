@@ -1,8 +1,7 @@
 package DataStructures.Arrays;
-// Revision 1
+// Revision 2
 import java.util.Scanner;
 
-// Revision 1
 public class BasicArray {
 
     // Method for creating array list
