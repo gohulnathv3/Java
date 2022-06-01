@@ -1,5 +1,5 @@
 package io.java;
-// Revision 1
+// Revision 2
 public class ArraySample {
     public static void main(String[] args) {
         int[] myIntArray = new int[5]; //this one way of declaring elements in array
