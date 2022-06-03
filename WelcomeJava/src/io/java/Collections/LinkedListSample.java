@@ -3,7 +3,7 @@ package io.java.Collections;
 import java.util.LinkedList;
 
 //this is about LinkedList sample
-// Revision 2
+// Revision 3
 public class LinkedListSample {
     public static void main(String[] args) {
         LinkedList<String> myList = new LinkedList();
