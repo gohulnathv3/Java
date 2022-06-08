@@ -1,6 +1,6 @@
 package io.BasicPrograms;
 
-// Revision 3
+// Revision 2
 public class FrequencyFinding {
     public static void main(String[] args) {
         // Initialize array
