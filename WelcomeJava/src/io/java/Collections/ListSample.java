@@ -4,7 +4,7 @@ import io.java.constructors.pkg1.Person;
 
 import java.util.ArrayList;
 import java.util.Collections;
-//Revision 3
+//Revision 2
 public class ListSample {
     public static void main(String[] args) {
         ArrayList<String> myList = new ArrayList();
