@@ -1,5 +1,5 @@
 package io.BasicPrograms;
-// Revision 3
+// Revision 2
 // Task: create one array and copy the elements and print it to other array
 
 public class CopyArray {
