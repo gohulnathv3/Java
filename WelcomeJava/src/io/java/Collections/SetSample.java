@@ -2,7 +2,7 @@ package io.java.Collections;
 
 
 import java.util.HashSet;
-// Revision 3
+// Revision 2
 public class SetSample {
     public static void main(String[] args) {
         HashSet<String> mySet = new HashSet<>();
