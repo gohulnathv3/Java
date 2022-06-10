@@ -1,5 +1,5 @@
 package io.java.inheritance;
-// Revision 1
+// Revision 2
 public class Artist extends Human {
 
     public void walk(){
