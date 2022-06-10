@@ -1,5 +1,5 @@
 package io.java.ExceptionHandling;
-// Revision 1
+// Revision 2
 public class MyException extends Exception{
     String message;
 
