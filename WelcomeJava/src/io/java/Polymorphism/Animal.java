@@ -1,5 +1,5 @@
 package io.java.Polymorphism;
-// Revision 1
+// Revision 2
 
 public abstract class Animal {
     private String minSpeed ;
