@@ -1,5 +1,5 @@
 package io.java.ControlStatement;
-// Revision 3
+// Revision 2
 public class WhileLoop {
     public static void main(String[] args) {
          // initialize expression
