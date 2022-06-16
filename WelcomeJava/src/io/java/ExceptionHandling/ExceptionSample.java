@@ -1,5 +1,5 @@
 package io.java.ExceptionHandling;
-// Revision 3
+// Revision 2
 public class ExceptionSample {
     public static void main(String[] args) {
 
