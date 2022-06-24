@@ -1,7 +1,7 @@
 package io.java.Collections;
 
 import java.util.*;
-//Revision 3
+//Revision 2
 public class MapExample {
     public static void main(String[] args) {
         HashMap<String, String> myMap = new HashMap<>();
