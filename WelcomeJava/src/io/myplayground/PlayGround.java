@@ -1,9 +1,11 @@
 package io.myplayground;
-// Revision 1
+// Revision 2
 
 public class PlayGround{
     public static void main(String[] args) {
         System.out.println("{\r\n" + " \"message\":\"Event Published successfully\"\r\n" + "}");
+
+        System.out.println("{\r\n" + " \"Gohul\" " + "\r\n}");
 
     }
 
