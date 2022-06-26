@@ -10,7 +10,5 @@ public class HashMap {
         for(Map.Entry m: myMap.entrySet()){
             System.out.println(m.getKey()+ " "+ m.getValue());
         }
-
-
     }
 }
