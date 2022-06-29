@@ -1,15 +1,33 @@
 package io.myplayground;
+
+import jdk.swing.interop.SwingInterOpUtils;
+
+import java.net.HttpURLConnection;
+
 // Revision 2
-
-public class PlayGround{
+public class PlayGround {
     public static void main(String[] args) {
-        System.out.println("{\r\n" + " \"message\":\"Event Published successfully\"\r\n" + "}");
-
-        System.out.println("{\r\n" + " \"Gohul\" " + "\r\n}");
-
+        HttpURLConnection conn = null;
+        System.out.println(conn);
+        System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
+        boolean isCreateEvent = true;
+        System.out.println(isCreateEvent);
     }
-
 }
+
+
+
+
+//
+//public class PlayGround{
+//    public static void main(String[] args) {
+//        System.out.println("{\r\n" + " \"message\":\"Event Published successfully\"\r\n" + "}");
+//
+//        System.out.println("{\r\n" + " \"Gohul\" " + "\r\n}");
+//
+//    }
+//
+//}
 //
 
 
