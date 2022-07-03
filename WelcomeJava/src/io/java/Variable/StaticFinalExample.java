@@ -1,4 +1,4 @@
-package io.java.StaticFinal;
+package io.java.Variable;
 
 import java.util.concurrent.TimeUnit;
 
