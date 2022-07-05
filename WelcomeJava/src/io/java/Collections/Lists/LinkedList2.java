@@ -1,7 +1,7 @@
 package io.java.Collections.Lists;
 
 import java.util.LinkedList;
-// Revision 3
+// Revision 2
 public class LinkedList2 {
     public static void main(String[] args) {
         LinkedList<String> ll = new LinkedList<String>();
