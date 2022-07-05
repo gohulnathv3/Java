@@ -1,6 +1,8 @@
 package io.java.Collections.Lists;
 
 
+//
+
 // Syntax
 //        List <data-type> list1= new ArrayList();
 //        List <data-type> list2 = new LinkedList();
@@ -9,7 +11,7 @@ package io.java.Collections.Lists;
 
 import java.util.Iterator;
 import java.util.LinkedList;
-// Revision 3
+// Revision 2
 public class LinkedList1 {
     public static void main(String[] args) {
         LinkedList<String> ll  = new LinkedList<String>();
