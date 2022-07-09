@@ -5,4 +5,11 @@ public class Problem3 {
 
     }
 
+    // To create a method for addition
+    public void addition(int a,int b){
+        System.out.println(a+b);
+    }
+
+    //
+
 }
