@@ -5,6 +5,7 @@ public class Problem3 {
         BasicMathematicalOperation operation = new BasicMathematicalOperation();
         operation.addition(12,34);
         operation.subtraction(15, 16);
+        operation.multiplication(1,2);
     }
 
 }
