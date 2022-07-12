@@ -3,6 +3,9 @@ package io.java.JSON;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class JsonEncode {
     public static void main(String[] args) throws JSONException {
         JSONObject object = new JSONObject();
@@ -12,8 +15,6 @@ public class JsonEncode {
         object.put("Graduate", true);
 
         System.out.println(object);
-
-
 
     }
 }
