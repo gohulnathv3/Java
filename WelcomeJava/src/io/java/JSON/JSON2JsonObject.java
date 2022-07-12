@@ -16,7 +16,7 @@ public class JSON2JsonObject {
         String jsonString =  "{\"name\":\"mkyong\",\"age\":37,\"skills\":[\"java\",\"python\"]}";
 //        Staff staff2 = objectMapper.readValue(jsonString,Staff.class);
 
-//        System.out.println(staff2);
+//        System.out.println(   );
 
     }
 }
