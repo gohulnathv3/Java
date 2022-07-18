@@ -2,7 +2,7 @@ package io.java.ControlStatement;
 
 import java.util.Scanner;
 
-// Revision 2
+// Revision 3
 public class SwitchSample {
     public static void main(String[] args) {
         int num = 5;
