@@ -1,4 +1,4 @@
-package io.java.Interface;
+package io.java.Interface.Sample1;
 
 public interface Vehicle {
     String getBrand();

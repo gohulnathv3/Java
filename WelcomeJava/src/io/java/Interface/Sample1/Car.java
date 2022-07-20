@@ -1,6 +1,6 @@
-package io.java.Interface;
+package io.java.Interface.Sample1;
 
-public class Car implements Vehicle{
+public class Car implements Vehicle {
 
     private final String brand;
 
