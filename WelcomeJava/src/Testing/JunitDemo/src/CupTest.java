@@ -28,5 +28,4 @@ class CupTest {
         c.setPercentFull(100);
         assertEquals(100, c.getPercentFull());
     }
-
 }
