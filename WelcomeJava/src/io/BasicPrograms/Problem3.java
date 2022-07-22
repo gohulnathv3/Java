@@ -1,7 +1,7 @@
 package io.BasicPrograms;
 
 import java.util.Scanner;
-// Revision 2
+// Revision 3
 public class Problem3 {
     public static void main(String[] args) {
         // declare the required data type and variable to store the data
