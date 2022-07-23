@@ -1,6 +1,6 @@
 package io.java.Collections;
 
-// Revision 3
+// Revision 2
 
 //public class ThreadSample extends Thread{
 public class ThreadSample implements Runnable{
