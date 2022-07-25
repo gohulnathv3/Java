@@ -10,7 +10,7 @@ public class TryCatchExample1 {
         }catch (Exception e){
 //            Here, we can give also custom error message
             System.out.println("Integer not divided by zero");
-//            System.out.println(e);
+            System.out.println(e);
         }
 
         // To check if the rest of the code is executed.
