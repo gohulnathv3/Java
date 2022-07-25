@@ -37,6 +37,7 @@ public class FlightTicket {
         createTicket(1122, 5, "Business", 11225);
 
 
+//        FlightTicket ticket1;
 //        System.out.println("Ticket details => \n"+ "Flight Number: "+ticket1.flightNumber+"\nTicket class : "+ticket1.ticketCategory
 //        +"\nSeat number and ticket number: "+ticket1.seatNumber+","+ticket1.ticketNumber);
 
