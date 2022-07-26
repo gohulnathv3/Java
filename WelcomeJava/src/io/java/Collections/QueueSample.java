@@ -3,7 +3,7 @@ package io.java.Collections;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
-// Revision 2
+// Revision 3
 
 public class QueueSample {
     public static void main(String[] args) {
